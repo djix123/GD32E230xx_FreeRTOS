@@ -11,7 +11,7 @@ static void
 task1(void *args __attribute((unused))) {
 
 	for (;;) {
-		gpio_bit_toggle(LEDPORT, GPIO_PIN_1);
+		gpio_bit_toggle(LEDPORT, LEDPIN);
 		vTaskDelay(pdMS_TO_TICKS(250));
 	}
 }
