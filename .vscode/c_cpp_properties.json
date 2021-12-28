@@ -1,0 +1,80 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/include",
+                "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/src",
+                "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/include/FreeRTOS/Source/include",
+                "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/include/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/cores/gd32",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/startup_files",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/variants/gd32e23x",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/variants/gd32e23x/inc",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/variants/gd32e23x/src",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/LCD_Common",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230c_eval",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230c_lcd_eval",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230c_start",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230f_start",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230g_start",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230k_start",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230v_start",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e231c_start",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp/include",
+                "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/include",
+                    "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/src",
+                    "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/include/FreeRTOS/Source/include",
+                    "/Users/jgiles/SynologyDrive/Documents/MCU/projects/GD32E230xx_FreeRTOS/include/FreeRTOS/Source/portable/GCC/ARM_CM23_NTZ/non_secure",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/cores/gd32",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/startup_files",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/variants/gd32e23x",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/variants/gd32e23x/inc",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/variants/gd32e23x/src",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/LCD_Common",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230c_eval",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230c_lcd_eval",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230c_start",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230f_start",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230g_start",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230k_start",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e230v_start",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/spl/libraries/gd32e23x/gd32e231c_start",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp/include",
+                    "/Users/jgiles/.platformio/packages/framework-spl-gd32/gd32/cmsis/libraries/cmsis_dsp",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50204",
+                "GD32E2",
+                "GD32E230",
+                "GD32E23x",
+                "F_CPU=72000000L",
+                "BOARD_NAME=\"JIGSY_BOARD_GD32E230F8\"",
+                "JIGSY_BOARD_GD32E230F8",
+                "USE_STDPERIPH_DRIVER",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                ""
+            ],
+            "compilerPath": "/Users/jgiles/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m23",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
